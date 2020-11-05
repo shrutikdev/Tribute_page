@@ -1,1 +1,70 @@
+body {
+    background-color: #F2F2F2;
+}
 
+.rb {
+    height: 300px;
+    float: right;
+    float: top;
+    padding: 0;
+}
+
+.name {
+    font-size: 80px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+}
+
+.quote {
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.about {
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    padding-right: 700px;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.robimage {
+    z-index: 98;
+    height: 280px;
+    width: 154px;
+    margin: 10px 10px;
+    background-size: 111%;
+    background-position: center;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+}
+
+.robimage:hover {
+    z-index: 99;
+    height: 280px;
+    width: 180px;
+    background-size: 121%;
+    background-position: center;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.more {
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+}
